@@ -1,0 +1,15 @@
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\bin\Debug\net7.0\Class with constractor(Students).exe
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\bin\Debug\net7.0\Class with constractor(Students).deps.json
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\bin\Debug\net7.0\Class with constractor(Students).runtimeconfig.json
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\bin\Debug\net7.0\Class with constractor(Students).dll
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\bin\Debug\net7.0\Class with constractor(Students).pdb
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).csproj.AssemblyReference.cache
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).GeneratedMSBuildEditorConfig.editorconfig
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).AssemblyInfoInputs.cache
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).AssemblyInfo.cs
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).csproj.CoreCompileInputs.cache
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).dll
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\refint\Class with constractor(Students).dll
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).pdb
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\Class with constractor(Students).genruntimeconfig.cache
+D:\Tasks_iti\Tasks_Day5\Class with constractor(Students)\Class with constractor(Students)\obj\Debug\net7.0\ref\Class with constractor(Students).dll

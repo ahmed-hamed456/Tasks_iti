@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Class with Constractor/1.0.0": {
+        "runtime": {
+          "Class with Constractor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Class with Constractor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
