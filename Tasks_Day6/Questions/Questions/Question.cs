@@ -12,13 +12,14 @@ namespace Questions
         protected string body;
         protected int mark;
 
-        public Question():this(0){}
+        public Question() : this(0) { Console.WriteLine("Ahmed"); }
 
-        public Question(int num) : this(num,"") { }
-        public Question(int num,string body) : this(num, body,0) {}
+        public Question(int num) : this(num,"") { Console.WriteLine("Hamed"); }
+        public Question(int num,string body) : this(num, body,0) { Console.WriteLine("Hema"); }
         
         public Question(int num, string body,int mark)
         {
+            Console.WriteLine("Perfect");
             this.num = num;
             this.body = body;
             this.mark = mark;

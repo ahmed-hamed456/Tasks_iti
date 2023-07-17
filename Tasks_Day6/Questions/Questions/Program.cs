@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             MCQ_Question question = new MCQ_Question(1, "What is your nationality?", 10);
+            
+
             question.Answers=new string[] { "Egyptian", "German", "Japanese" };
             question.Show();
 

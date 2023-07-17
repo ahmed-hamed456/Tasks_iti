@@ -11,7 +11,7 @@ namespace Questions
         private string[] answers;
 
         public MCQ_Question() : this(0,"", 0) {}
-        public MCQ_Question(int num,string body,int mark) : base(num,body,mark) { }
+        public MCQ_Question(int num,string body,int mark) : base(num,body,mark) { Console.WriteLine("Salah"); }
         
         public string[] Answers
         {

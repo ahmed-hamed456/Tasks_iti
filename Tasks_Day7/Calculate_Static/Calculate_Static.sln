@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate_Static", "Calculate_Static\Calculate_Static.csproj", "{DB6234EE-A042-47EA-8729-1848CF28DAB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB6234EE-A042-47EA-8729-1848CF28DAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6234EE-A042-47EA-8729-1848CF28DAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6234EE-A042-47EA-8729-1848CF28DAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6234EE-A042-47EA-8729-1848CF28DAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8344C1FA-B56E-43CF-A6A9-CD8B73F9BF1B}
+	EndGlobalSection
+EndGlobal
