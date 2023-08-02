@@ -82,17 +82,48 @@ namespace EF_Posts.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("auth_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("auth_id")
+                        .HasColumnType("int");
 
-                    b.Property<string>("cat_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("cat_id")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("auth_id");
+
+                    b.HasIndex("cat_id");
+
                     b.ToTable("Posts");
+                });
+
+            modelBuilder.Entity("EF_Posts.Models.Post", b =>
+                {
+                    b.HasOne("EF_Posts.Models.Author", "author")
+                        .WithMany("posts")
+                        .HasForeignKey("auth_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EF_Posts.Models.Category", "category")
+                        .WithMany("posts")
+                        .HasForeignKey("cat_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("author");
+
+                    b.Navigation("category");
+                });
+
+            modelBuilder.Entity("EF_Posts.Models.Author", b =>
+                {
+                    b.Navigation("posts");
+                });
+
+            modelBuilder.Entity("EF_Posts.Models.Category", b =>
+                {
+                    b.Navigation("posts");
                 });
 #pragma warning restore 612, 618
         }

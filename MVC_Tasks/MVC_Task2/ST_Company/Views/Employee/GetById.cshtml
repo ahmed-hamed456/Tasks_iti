@@ -1,0 +1,22 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "GetById";
+}
+
+<h1>GetById</h1>
+
+<div class="card" >
+    <img src="https://tse2.mm.bing.net/th?id=OIP.eQDoJqnz9zgQK7eHEp-kAwHaE8&pid=Api&P=0&h=180" class="card-img-top" alt="employee details">
+  <div class="card-body">
+    <h5 class="card-title">@Model.Name</h5>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Age : @Model.Age</li>
+        <li class="list-group-item">Salary : @Model.Salary</li>
+        <li class="list-group-item">Email : @Model.Email</li>
+    </ul>
+  <div class="card-body">
+        <a href="/employee/index" class="card-link">Back to courses</a>
+    </div>
+</div>
+</div>

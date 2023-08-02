@@ -13,7 +13,9 @@ namespace EF_Posts.Models
         public int Age { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
+       
+        //Navigation Property
+        public List<Post>? posts { get; set; }=new List<Post>();
 
     }
 }

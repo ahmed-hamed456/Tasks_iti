@@ -1,0 +1,29 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "EditForm";
+}
+
+<h1>EditForm</h1>
+
+<form action="/employee/EditInDB" method="post">
+    <input type="number" id="ID" name="ID" value="@Model.ID" hidden />
+
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" value="@Model.Name" aria-describedby="Name" name="Name">
+    </div>
+    <div class="mb-3">
+        <label for="Age" class="form-label">Age</label>
+        <input type="number" class="form-control" id="Age" value="@Model.Age" aria-describedby="Age" name="Age">
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" value="@Model.Email" aria-describedby="Email" name="Email">
+    </div>
+    <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" value="@Model.Password" aria-describedby="Password" name="Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
