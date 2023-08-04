@@ -29,6 +29,8 @@ namespace ST_Company.Controllers
 
         public IActionResult AddForm(int id)
         {
+            List<Office> offices=Context.Offices.ToList();
+            ViewBag.Offices = offices;
             return View();
         }
 

@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "AddForm";
+}
+
+<h1>Add_Office</h1>
+
+<form action="/office/AddToDB" method="post">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" aria-describedby="Name" name="Name">
+    </div>
+    <div class="mb-3">
+        <label for="Location" class="form-label">Location</label>
+        <input type="text" class="form-control" id="Location" name="Location">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>

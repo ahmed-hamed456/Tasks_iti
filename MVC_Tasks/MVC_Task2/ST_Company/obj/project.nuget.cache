@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y+nROQlkUij7i3CoR6v6N8Ppy2jA+5D9/pM+jmyjjOsEfBpE66P3GcX+p3jiBXviLDDZIEbnKo6zXxCukafx3g==",
+  "dgSpecHash": "dssn0IyjtxQMRoHiCUZyguMJD9cxLgdMVxbp2I6z3ECvZNOpj3cFSuhK2yKTmVcSimc5mXPXc/P9rek1u5D0iw==",
   "success": true,
-  "projectFilePath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\ST_Company.csproj",
+  "projectFilePath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\ST_Company.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

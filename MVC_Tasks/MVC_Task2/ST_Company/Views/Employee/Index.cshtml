@@ -4,9 +4,9 @@
     int i = 1;
 }
 
-<h1>Index</h1>
+<h1>Employee Data</h1>
 
-<a href="/employee/addform" class="btn btn-dark">Add</a>
+<a href="/employee/addform" class="btn btn-dark">Add_New_Employee</a>
 <hr/>
 <table class="table table-light">
     <thead>
@@ -16,6 +16,8 @@
             <th scope="col">Age</th>
             <th scope="col">Salary</th>
             <th scope="col">Email</th>
+            <th scope="col">Controls</th>
+
             
         </tr>
     </thead>
@@ -30,11 +32,11 @@
             <td>@item.Email</td>
 
                 <td>
-                    <a href="/employee/getbyid/@item.ID">Details</a>
+                    <a href="/employee/getbyid/@item.ID"><i class="fa-solid fa-circle-info"></i></a>
                     -
-                    <a href="/employee/EditForm/@item.ID">Edit</a>
+                    <a href="/employee/EditForm/@item.ID"><i class="fa-solid fa-pen-to-square"></i></a>
                     -
-                    <a href="/employee/delete/@item.ID">Delete</a>
+                    <a href="/employee/delete/@item.ID"><i class="fa-solid fa-trash"></i></a>
                 </td>
         </tr>
             }

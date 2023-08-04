@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\ST_Company.csproj": {}
+    "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\ST_Company.csproj": {}
   },
   "projects": {
-    "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\ST_Company.csproj": {
+    "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\ST_Company.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\ST_Company.csproj",
+        "projectUniqueName": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\ST_Company.csproj",
         "projectName": "ST_Company",
-        "projectPath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\ST_Company.csproj",
+        "projectPath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\ST_Company.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\ST_Company\\ST_Company\\obj\\",
+        "outputPath": "D:\\Tasks(iti)\\Tasks_iti\\MVC_Tasks\\MVC_Task2\\Day2_Task\\ST_Company\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

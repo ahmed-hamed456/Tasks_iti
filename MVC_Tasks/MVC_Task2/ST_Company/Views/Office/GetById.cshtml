@@ -1,0 +1,17 @@
+﻿@model Office
+@{
+    ViewData["Title"] = "GetById";
+}
+
+
+
+<div class="card text-center">
+  <div class="card-header">
+     <h1>Office Data</h1>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">@Model.Name</h5>
+    <p class="card-text">@Model.Location</p>
+    <a href="/office/index" class="btn btn-primary">Back to Offices</a>
+    </div>
+</div>
