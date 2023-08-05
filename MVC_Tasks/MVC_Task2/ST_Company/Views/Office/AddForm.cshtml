@@ -1,18 +1,18 @@
-﻿
+﻿@model Office
 @{
     ViewData["Title"] = "AddForm";
 }
 
 <h1>Add_Office</h1>
 
-<form action="/office/AddToDB" method="post">
+<form asp-controller="office" asp-action="addtodb" method="post">
     <div class="mb-3">
-        <label for="Name" class="form-label">Name</label>
-        <input type="text" class="form-control" id="Name" aria-describedby="Name" name="Name">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" >
     </div>
     <div class="mb-3">
-        <label for="Location" class="form-label">Location</label>
-        <input type="text" class="form-control" id="Location" name="Location">
+        <label asp-for="Location" class="form-label"></label>
+        <input asp-for="Location" class="form-control">
     </div>
     
     <button type="submit" class="btn btn-primary">Submit</button>

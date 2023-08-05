@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ST_Company.Models;
 
 namespace ST_Company.Controllers
@@ -30,7 +31,7 @@ namespace ST_Company.Controllers
         public IActionResult AddForm(int id)
         {
             List<Office> offices=Context.Offices.ToList();
-            ViewBag.Offices = offices;
+            ViewBag.Offices = new SelectList(offices,"ID","Name");
             return View();
         }
 
@@ -51,6 +52,8 @@ namespace ST_Company.Controllers
         public IActionResult EditForm(int id)
         {
             Employee employee=Context.Employees.SingleOrDefault(e=>e.ID== id);
+            List<Office> offices = Context.Offices.ToList();
+            ViewBag.Offices = offices;
             return View(employee);
         }
 
@@ -61,6 +64,7 @@ namespace ST_Company.Controllers
             OldEmployee.Email= employee.Email;
             OldEmployee.Age= employee.Age;
             OldEmployee.Password= employee.Password;
+            OldEmployee.Office_id= employee.Office_id;
             Context.SaveChanges();
             return RedirectToAction("Index");
         }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ST_Company.Models
 {
@@ -11,6 +12,7 @@ namespace ST_Company.Models
         public string Email { get; set; }
         public string Password { get; set; }
         [ForeignKey("office")]
+        [Display(Name="Office")]
         public int? Office_id { get; set; }
 
         //Navigation Property

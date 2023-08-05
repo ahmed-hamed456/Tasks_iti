@@ -1,4 +1,4 @@
-﻿
+﻿@model Employee
 @{
     ViewData["Title"] = "AddForm";
 }
@@ -23,11 +23,9 @@
         <input type="password" class="form-control" id="Password" aria-describedby="Password" name="Password">
     </div>
     <div class="mb-3">
-        <select class="form-select" id="Office_id" name="Office_id">
+        <label asp-for="Office_id" class="form-label"></label>
+        <select class="form-select" asp-for="Office_id" asp-items="ViewBag.Offices">
         <option selected>Open this select menu</option>
-        @foreach(var item in ViewBag.Offices){
-        <option value="@item.ID">@item.Name</option>
-        }
     </select>
     </div>
 

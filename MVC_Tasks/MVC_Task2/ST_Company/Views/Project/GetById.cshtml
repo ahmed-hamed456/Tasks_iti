@@ -1,0 +1,17 @@
+﻿@model Project
+@{
+    ViewData["Title"] = "GetById";
+}
+
+<h1>GetById</h1>
+
+<div class="card text-center">
+    <div class="card-header">
+        <h1>Project Data</h1>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">@Model.Description</p>
+        <a asp-controller="project" asp-action="index" class="btn btn-primary">Back to Projects</a>
+    </div>
+</div>

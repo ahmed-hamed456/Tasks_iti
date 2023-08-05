@@ -6,7 +6,7 @@
 
 <h1>Office Data</h1>
 
-<a href="/office/addform" class="btn btn-dark">Add_New_Office</a>
+<a asp-controller="office" asp-action="addform" class="btn btn-dark">Add_New_Office</a>
 <hr />
 <table class="table table-light">
     <thead>
@@ -26,11 +26,11 @@
                 <td>@item.Name</td>
                 <td>@item.Location</td>
                 <td>
-                    <a href="/office/getbyid/@item.ID"><i class="fa-solid fa-circle-info"></i></a>
+                    <a asp-controller="office" asp-action="index" asp-route-id="@item.ID"><i class="fa-solid fa-circle-info"></i></a>
                     -
-                    <a href="/office/EditForm/@item.ID"><i class="fa-solid fa-pen-to-square"></i></a>
+                    <a asp-controller="office" asp-action="index" asp-route-id="@item.ID"><i class="fa-solid fa-pen-to-square"></i></a>
                     -
-                    <a href="/office/delete/@item.ID"><i class="fa-solid fa-trash"></i></a>
+                    <a asp-controller="office" asp-action="index" asp-route-id="@item.ID"><i class="fa-solid fa-trash"></i></a>
                 </td>
             </tr>
         }

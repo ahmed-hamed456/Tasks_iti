@@ -1,0 +1,21 @@
+﻿@model Project
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit_Project_Data</h1>
+
+<form asp-controller="project" asp-action="edit" method="post">
+    <input asp-for="ID" value="@Model.ID" hidden />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control"  value="@Model.Name"/>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <input asp-for="Description" class="form-control" value="@Model.Description" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -24,6 +24,19 @@
         <label for="Password" class="form-label">Password</label>
         <input type="password" class="form-control" id="Password" value="@Model.Password" aria-describedby="Password" name="Password">
     </div>
+    <div class="mb-3">
+        <select class="form-select" id="Office_id" name="Office_id">
+            @foreach (var item in ViewBag.Offices)
+            {
+                @if (@item.ID==Model.Office_id)
+                {
+                    <option selected value="@item.ID">@item.Name</option>
+                }else{
+                    <option value="@item.ID">@item.Name</option>
+                }
+            }
+        </select>
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>
